@@ -44,6 +44,20 @@ class _OnePageState extends State<OnePage> {
               },
               titleSize: 18,
             ),
+            CustomButtonWidget(
+              title: "Página dois",
+              onPressed: () {
+                Navigator.of(context).pushNamed("/second_page");
+              },
+              titleSize: 18,
+            ),
+            CustomButtonWidget(
+              title: "Página três",
+              onPressed: () {
+                Navigator.of(context).pushNamed("/third_page");
+              },
+              titleSize: 18,
+            ),
           ],
         ),
       ),
